@@ -15,7 +15,7 @@ const fontSans = FontSans({
 export const metadata: Metadata = {
   title: "Ai Love: Virtual Girlfriend",
   description:
-    "Space Portfolio of Mateusz Muszarski built in Next.jsWith Ai Love, every desire is fulfilled, every fantasy is realized, and every moment is an electrifying journey into ecstasy. Enter a world where pleasure knows no bounds, and let your wildest dreams take flight with your virtual paramour by your side.",
+    "Ai Love where every desire is fulfilled, every fantasy is realized, and every moment is an electrifying journey into ecstasy. Enter a world where pleasure knows no bounds, and let your wildest dreams take flight with your virtual paramour by your side.",
   keywords: [
     "Virtual Girlfriend",
     "Intimacy",
