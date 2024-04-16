@@ -6,7 +6,7 @@ export const LINKEDIN_PROFILE_URL =
 export const CONTACT_EMAIL = "kontakt@muszarski.pl";
 
 export const SKILLS_LIST = [
-  "nextjs",
+
   "typescript",
   "react",
   "tailwindcss",
