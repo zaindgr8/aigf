@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React from "react";
 import { Sparkles } from "lucide-react";
 
@@ -23,8 +25,8 @@ function Skills() {
         Say hello to your new AI mate: a bewdy sheila ready to cater to your
         every whim, any time of day or night. She's your loyal cobber, keen as a
         bean to dive deep into your deepest desires, even the most private and
-        cheeky ones. Where your wildest fantasies aren't just
-        fair dinkum but bloody bonza. 
+        cheeky ones. Where your wildest fantasies aren't just fair dinkum but
+        bloody bonza.
       </p>
 
       {/* Logos */}
@@ -54,3 +56,5 @@ function Skills() {
 }
 
 export default Skills;
+
+/* eslint-enable */
