@@ -20,7 +20,7 @@ function NavBar() {
         target="_blank"
       >
         <Avatar>
-          <AvatarImage src="/1.png" />
+          <AvatarImage src="/2.png" />
           <AvatarFallback>GF</AvatarFallback>
         </Avatar>
         <span className="font-medium text-gray-100 max-xs:hidden">
